@@ -1,6 +1,6 @@
 // Network first, cache as fallback: updates to timetable.json arrive
 // whenever the phone is online, and the app still works offline.
-const CACHE = 'tunniplaan-7b-v1';
+const CACHE = 'tunniplaan-7b-v2';
 const ASSETS = [
   './',
   './index.html',
