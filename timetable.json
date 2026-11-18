@@ -1,0 +1,126 @@
+{
+  "title": "7B tunniplaan",
+  "validFrom": "2026-11-02",
+  "validTo": "2026-12-18",
+
+  "periods": [
+    { "n": 1, "start": "8:00",  "end": "8:45" },
+    { "n": 2, "start": "9:00",  "end": "9:45" },
+    { "n": 3, "start": "10:00", "end": "10:45" },
+    { "n": 4, "start": "11:00", "end": "11:45" },
+    { "n": 5, "start": "12:00", "end": "12:45" },
+    { "n": 6, "start": "13:00", "end": "13:45" },
+    { "n": 7, "start": "14:00", "end": "14:45" },
+    { "n": 8, "start": "15:00", "end": "15:45" },
+    { "n": 9, "start": "15:55", "end": "16:40" }
+  ],
+
+  "lunch": {
+    "E": { "from": "10:45", "to": "11:15", "lesson": 4, "lessonStart": "11:15", "lessonEnd": "12:00" },
+    "T": { "from": "11:45", "to": "12:15", "lesson": 5, "lessonStart": "12:15", "lessonEnd": "13:00" },
+    "K": { "from": "11:45", "to": "12:15", "lesson": 5, "lessonStart": "12:15", "lessonEnd": "13:00" },
+    "N": { "from": "12:45", "to": "13:15", "lesson": 6, "lessonStart": "13:15", "lessonEnd": "14:00" },
+    "R": { "from": "11:00", "to": "11:15", "lesson": 4, "lessonStart": "11:15", "lessonEnd": "12:00" }
+  },
+
+  "groups": [
+    { "id": "b",  "label": "Teine võõrkeel",        "options": ["VK", "PK", "SK"] },
+    { "id": "ik", "label": "Inglise keel (IK)",     "options": ["Leibur", "Vohnja"] },
+    { "id": "k6", "label": "Kolmapäev, 6. tund",    "options": ["CON", "BrAmK"] },
+    { "id": "k7", "label": "Kolmapäev, 7.–8. tund", "options": ["TE", "KT"] }
+  ],
+  "optional": [
+    { "id": "lak", "label": "Käin lastekooris (LAK, E 1. tund)" }
+  ],
+
+  "subjects": {
+    "MA":    { "color": "#c1ff80", "icon": "math" },
+    "IK":    { "color": "#fec1c0", "icon": "lang" },
+    "VK":    { "color": "#ffffc1", "icon": "lang" },
+    "PK":    { "color": "#fe8081", "icon": "lang" },
+    "SK":    { "color": "#f4f478", "icon": "lang" },
+    "EK":    { "color": "#80c0fe", "icon": "pen" },
+    "KI":    { "color": "#80c0fe", "icon": "book" },
+    "GE":    { "color": "#e0dac2", "icon": "globe" },
+    "LO":    { "color": "#80c0c0", "icon": "leaf" },
+    "BI":    { "color": "#c0c080", "icon": "cell" },
+    "AJ":    { "color": "#c180ff", "icon": "hour" },
+    "KU":    { "color": "#f4de95", "icon": "brush" },
+    "MU":    { "color": "#e0e0e0", "icon": "music" },
+    "LAK":   { "color": "#e0e0e0", "icon": "music" },
+    "KK":    { "color": "#c0c0c0", "icon": "ball" },
+    "TE":    { "color": "#d7c7a5", "icon": "wrench" },
+    "KT":    { "color": "#d7c7a5", "icon": "scissors" },
+    "CON":   { "color": "#ffc0df", "icon": "chat" },
+    "BrAmK": { "color": "#ffc0df", "icon": "book" },
+    "KLJ":   { "color": "#d3ffde", "icon": "people" }
+  },
+
+  "days": {
+    "E": [
+      [ { "s": "LAK", "r": "405", "t": "Õmblus, Urbel", "g": "lak" } ],
+      [ { "s": "MA", "r": "313" } ],
+      [ { "s": "IK", "r": "414", "t": "Leibur", "g": "ik:Leibur" },
+        { "s": "IK", "r": "410", "t": "Vohnja", "g": "ik:Vohnja" } ],
+      [ { "s": "GE", "r": "210" } ],
+      [ { "s": "LO", "r": "217" } ],
+      [ { "s": "BI", "r": "208" } ],
+      [ { "s": "KLJ", "r": "208" } ],
+      [],
+      []
+    ],
+    "T": [
+      [ { "s": "VK", "r": "218", "t": "Sulg", "g": "b:VK" },
+        { "s": "PK", "r": "424", "t": "Martila", "g": "b:PK" } ],
+      [ { "s": "VK", "r": "218", "t": "Sulg", "g": "b:VK" },
+        { "s": "PK", "r": "424", "t": "Martila", "g": "b:PK" },
+        { "s": "SK", "r": "433", "t": "Paun", "g": "b:SK" } ],
+      [ { "s": "KU", "r": "431" } ],
+      [ { "s": "MA", "r": "313" } ],
+      [ { "s": "GE", "r": "105" } ],
+      [ { "s": "AJ", "r": "319" } ],
+      [],
+      [],
+      []
+    ],
+    "K": [
+      [],
+      [ { "s": "SK", "r": "105", "t": "Paun", "g": "b:SK" } ],
+      [ { "s": "IK", "r": "414", "t": "Leibur", "g": "ik:Leibur" },
+        { "s": "IK", "r": "410", "t": "Vohnja", "g": "ik:Vohnja" } ],
+      [ { "s": "EK", "r": "105" } ],
+      [ { "s": "AJ", "r": "319" } ],
+      [ { "s": "CON", "r": "416", "t": "Soysal", "g": "k6:CON" },
+        { "s": "BrAmK", "r": "414", "t": "Leibur", "g": "k6:BrAmK" } ],
+      [ { "s": "TE", "r": "404", "t": "Kits", "g": "k7:TE" },
+        { "s": "KT", "r": "006", "t": "Mereväli", "g": "k7:KT" } ],
+      [ { "s": "TE", "r": "404", "t": "Kits", "g": "k7:TE" },
+        { "s": "KT", "r": "006", "t": "Mereväli", "g": "k7:KT" } ],
+      []
+    ],
+    "N": [
+      [],
+      [ { "s": "PK", "r": "424", "t": "Martila", "g": "b:PK" } ],
+      [ { "s": "KI", "r": "319" } ],
+      [ { "s": "IK", "r": "414", "t": "Leibur", "g": "ik:Leibur" },
+        { "s": "IK", "r": "410", "t": "Vohnja", "g": "ik:Vohnja" } ],
+      [ { "s": "LO", "r": "217" } ],
+      [ { "s": "EK", "r": "319" } ],
+      [ { "s": "MA", "r": "313" } ],
+      [ { "s": "KK", "r": "118" } ],
+      [ { "s": "KK", "r": "118" } ]
+    ],
+    "R": [
+      [ { "s": "VK", "r": "218", "t": "Sulg", "g": "b:VK" },
+        { "s": "SK", "r": "424", "t": "Paun", "g": "b:SK" } ],
+      [ { "s": "KU", "r": "431" } ],
+      [ { "s": "MU", "r": "326" } ],
+      [ { "s": "MA", "r": "313" } ],
+      [ { "s": "EK", "r": "108" } ],
+      [ { "s": "KI", "r": "108" } ],
+      [],
+      [],
+      []
+    ]
+  }
+}
